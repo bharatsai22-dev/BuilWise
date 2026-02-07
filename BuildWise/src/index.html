@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BuildWise Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🏗️ BuildWise Project Analyzer</h1>
+    <p>Enter your Project ID to view analysis results</p>
+
+    <div class="input-box">
+      <input type="text" id="pid" placeholder="Enter Project ID">
+      <button onclick="getResult()">Get Result</button>
+    </div>
+
+    <div class="result-box">
+      <h3>📊 Project Results</h3>
+      <pre id="output">No data yet...</pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
